@@ -1,5 +1,6 @@
-Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AMD64)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> ================================ RESTART ================================
->>> 
-Ingrese el año
+año = int (input ("Ingrese el año"))
+if(año%4==0 and año%100!=0) or (año%400==0):
+    print("bisiesto")
+else:
+    print("no bisiesto")
+
